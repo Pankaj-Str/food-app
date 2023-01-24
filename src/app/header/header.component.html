@@ -1,0 +1,17 @@
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+  <li ngbNavItem>
+    <a ngbNavLink>About</a>
+    <ng-template ngbNavContent>
+      <app-aboutus></app-aboutus>
+    </ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink>Contact us</a>
+    <ng-template ngbNavContent>Second content</ng-template>
+  </li>
+  <li ngbNavItem>
+    <a ngbNavLink>Shop</a>
+    <ng-template ngbNavContent>Second content</ng-template>
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav"></div>
