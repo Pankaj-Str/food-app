@@ -7,6 +7,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { ShopComponent } from './shop/shop.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -14,13 +18,18 @@ import { AboutusComponent } from './aboutus/aboutus.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    AboutusComponent
+    AboutusComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    
     
   ],
   providers: [],

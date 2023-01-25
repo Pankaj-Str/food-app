@@ -11,7 +11,9 @@
   </li>
   <li ngbNavItem>
     <a ngbNavLink>Shop</a>
-    <ng-template ngbNavContent>Second content</ng-template>
+    <ng-template ngbNavContent>
+      <app-shop></app-shop>
+    </ng-template>
   </li>
 </ul>
 <div [ngbNavOutlet]="nav"></div>
