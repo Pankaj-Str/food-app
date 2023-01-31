@@ -11,15 +11,19 @@ import { ShopComponent } from './shop/shop.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
-
-
+import { ContactusComponent } from './contactus/contactus.component';
+import {MatInputModule} from '@angular/material/input';
+import { InputformComponent } from './inputform/inputform.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AboutusComponent,
-    ShopComponent
+    ShopComponent,
+    ContactusComponent,
+    InputformComponent
   ],
   imports: [
     BrowserModule,
@@ -29,8 +33,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatCardModule,
     MatButtonModule,
     MatIconModule,
-    
-    
+    MatInputModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
