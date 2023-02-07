@@ -15,6 +15,11 @@ import { ContactusComponent } from './contactus/contactus.component';
 import {MatInputModule} from '@angular/material/input';
 import { InputformComponent } from './inputform/inputform.component';
 import { FormsModule } from '@angular/forms';
+import { BlogComponent } from './blog/blog.component';
+import { BlogBtnComponent } from './blog-btn/blog-btn.component';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { BlogMainComponent } from './blog-main/blog-main.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,10 @@ import { FormsModule } from '@angular/forms';
     AboutusComponent,
     ShopComponent,
     ContactusComponent,
-    InputformComponent
+    InputformComponent,
+    BlogComponent,
+    BlogBtnComponent,
+    BlogMainComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +43,8 @@ import { FormsModule } from '@angular/forms';
     MatIconModule,
     MatInputModule,
     FormsModule,
+    MatDividerModule,
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

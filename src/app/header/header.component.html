@@ -17,5 +17,11 @@
       <app-shop></app-shop>
     </ng-template>
   </li>
+  <li ngbNavItem>
+    <a ngbNavLink>Blog</a>
+    <ng-template ngbNavContent>
+      <app-blog-main></app-blog-main>
+    </ng-template>
+  </li>
 </ul>
 <div [ngbNavOutlet]="nav"></div>
