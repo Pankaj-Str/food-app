@@ -5,11 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './blog-btn.component.html',
   styleUrls: ['./blog-btn.component.css']
 })
-export class BlogBtnComponent implements OnInit {
+export class BlogBtnComponent{
 
-  constructor() { }
-
-  ngOnInit(): void {
+  myFunc(){
+    //alert("welcome");
+    window.open("https://p4n.in/","_self");
   }
-
+  
+  
 }

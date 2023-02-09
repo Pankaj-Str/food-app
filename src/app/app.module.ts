@@ -20,6 +20,8 @@ import { BlogBtnComponent } from './blog-btn/blog-btn.component';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { BlogMainComponent } from './blog-main/blog-main.component';
+import { HttpClientModule } from  '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BlogMainComponent } from './blog-main/blog-main.component';
     InputformComponent,
     BlogComponent,
     BlogBtnComponent,
-    BlogMainComponent
+    BlogMainComponent,
+ 
+ 
   ],
   imports: [
     BrowserModule,
@@ -45,6 +49,8 @@ import { BlogMainComponent } from './blog-main/blog-main.component';
     FormsModule,
     MatDividerModule,
     MatProgressBarModule,
+    HttpClientModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
